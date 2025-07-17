@@ -1,0 +1,68 @@
+@font-face {
+font-family: 'mozilla_bold';
+src: url(./fonts/mozilla-headline-type-v1.01/fonts/ttf/MozillaHeadline-Bold.ttf) format('truetype');
+}
+
+@font-face {
+font-family: 'mozilla_normal';
+src: url(./fonts/mozilla-headline-type-v1.01/fonts/ttf/MozillaHeadline-Regular.ttf) format('truetype');
+}
+
+body {
+
+font-family: 'mozilla_normal', sans-serif;
+background: white;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.container {
+width: 50%;
+height: fit-content;
+background-color: #D7D7D7;
+border-radius: 70px;
+padding: 32px;
+}
+
+form label {
+display: block;
+margin-top: 16px;
+color: #000000;
+}
+
+form input {
+width: 100%;
+padding: 12px;
+margin-top: 6px;
+font-size: 16px;
+border: none;
+border-radius: 12px;
+background: white;
+}
+
+
+.titulo {
+text-align: center;
+margin-top:10px;
+font-family: 'mozilla_bold';
+font-size: 50px;
+}
+
+.subtitulo {
+text-align: center;
+font-family: 'mozilla_normal';
+font-size: 30px;
+}
+
+button {
+width: 100%;
+padding: 14px;
+margin-top: 24px;
+background: rgb(113, 170, 181);
+color: white;
+font-size: 16px;
+border: none;
+border-radius: 12px;
+}
